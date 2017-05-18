@@ -1,5 +1,5 @@
 ﻿using System;
-using helloworldd;
+
 
 namespace helloworld
 {
@@ -7,6 +7,18 @@ namespace helloworld
     {
         public static void Main(string[] args)
         {
+          Console.Write("hi");
+          int[] array = new int[5] {1,2,3,4,6};
+          foreach(var number in array){
+            Console.Write(number);
+          }
+          // for (var i =0; i<5; i++) {
+          //   Console.WriteLine(array[i]);
+          // }
+
+
+
+
             //Keep asking user until entered a num between 1-10
 
             //var num = 0;
